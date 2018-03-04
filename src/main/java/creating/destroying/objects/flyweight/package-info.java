@@ -4,6 +4,7 @@ package creating.destroying.objects.flyweight;
  * <p>
  * - Structural design pattern like Facade, Adapter, Decorator
  * <p>
+ * Advantages:
  * - Primarily used to decrease the number of objects and to
  * decrease memory footprint to increase performance. It's
  * used
@@ -20,4 +21,7 @@ package creating.destroying.objects.flyweight;
  * <p>
  * typical case with system resources, icons or folders are good
  * candidates
+ * <p>
+ * Drawbacks:
+ * All instances of the class are related.
  */

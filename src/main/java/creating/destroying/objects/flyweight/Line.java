@@ -19,8 +19,4 @@ public class Line implements IShape {
         return color;
     }
 
-    @Override
-    public void draw(Light.Point location) {
-        //draw the character on screen
-    }
 }

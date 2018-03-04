@@ -15,5 +15,12 @@ public interface IShape {
 
     public Color getColor();
 
-    public void draw(Point location);
+    default void draw(Point location){
+        if (getColor() != null) {
+            System.out.println("Drawing the shape with color: " + getColor().toString()
+                    + " | blue: " + getColor().getBlue()
+                    + " | red: " + getColor().getRed()
+                    + " | green: " + getColor().getGreen());
+        }
+    }
 }
